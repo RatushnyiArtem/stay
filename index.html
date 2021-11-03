@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./fontawesome-free-5.15.4-web/css/all.min.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <title>Lesson 14</title>
+</head>
+<body>
+    <div class="forma">
+        <h1>Форма регистрации</h1>
+        <form id="contact-form" action="">
+            <input type="hidden" name="contact_number">
+           <div class="info">
+             <div class="user_self">
+                <i class="fas fa-user-tie"></i>
+             </div>
+             <div class="user_text">
+                 <p>Чтобы продолжить - пройдите регистрацию</p>
+                 <i class="fas fa-arrow-alt-circle-right"></i>
+             </div>
+           </div> 
+           <div class="box_info">
+               <fieldset>
+                   <legend>Personal Information</legend>
+                   <div class="text">
+                   <input name="user_name" placeholder="username" type="text">
+               </div>
+               <div class="email">
+                   <input name="user_email" placeholder="useremail" type="email">
+               </div>
+                <div class="password">
+                    <input name="password"  placeholder="password"  type="password" >
+                </div>
+                <div class="phone">
+                    <input name="phone" placeholder="phone" type="tel" >
+                </div>
+                <div class="button">
+                    <button type="submit">Отправить</button>
+                    <button type="reset">Очистить</button>
+                </div>
+               </fieldset>
+               
+           </div>
+        </form>
+    </div>
+
+
+
+
+    <script src="./main.js"></script>
+</body>
+</html>

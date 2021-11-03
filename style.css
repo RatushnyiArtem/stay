@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fruktur&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+body{
+    background: url(./image/590cd109d2d67.jpg) no-repeat center center fixed;
+    background-position: contain;
+}
+.forma{
+    margin-top: 150px;
+    width: 100%;
+    height: 700px;
+    /* background-color: aquamarine; */
+    background-size: cover;
+    max-width: 100%;
+}
+h1{
+    color: white;
+    text-align: center;
+    font-family: 'Fruktur', cursive;
+}
+form{
+    display: flex;
+    width: 900px;
+    margin: 30px auto;
+    height: 500px;
+    border: 1px solid black;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(252, 252, 252, 0.39);
+    box-shadow: 0 0 20px royalblue;
+    border: none;
+   
+}
+.info{
+    width: 350px;
+    height: 370px;
+    background:linear-gradient(rgba(0, 0, 255, 0.5),rgba(76, 0, 130, 0.5),rgba(139, 0, 0, 0.5));
+    border-radius: 25px;
+    box-shadow: 0 0 20px red;
+}
+.box_info{
+    width: 350px;
+    height: 300px;
+    /* background-color: rgb(99, 206, 99); */
+    border-radius: 25px;
+    margin-bottom: 100px;
+}
+fieldset {
+    border-radius: 20px;
+    background:linear-gradient(rgba(255, 0, 0, 0.5),rgba(255, 192, 203, 0.5),rgba(148, 0, 211, 0.5));
+    border: none;
+    box-shadow: 0 0 20px rgb(255, 196, 0);
+    
+}
+legend{
+    font-family: 'Luckiest Guy', cursive;
+    margin-left: 50px;
+    font-size: 25px;
+    background-color: rgba(255, 0, 0, 0.5);
+    border-radius: 10px;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18, 13px -39px 7px rgba(0,0,0,0);
+    
+}
+.user_self {
+    width: 100%;
+    /* height: 100%; */
+    text-align: center;
+    font-size: 100px;
+    margin-top: 25px;
+
+}
+.user_text{
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+.user_text p{
+    font-size: 18px;
+    font-family: 'Fruktur', cursive;
+}
+.user_text i{
+    margin-top: 40px;
+    font-size: 70px;
+}
+.box_info div{
+    width: 250px;
+    margin: 15px auto;
+}
+input{
+    margin-top: 10px;
+    /* text-align: center; */
+    width: 100%;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    -webkit-box-shadow: 8px 7px 49px 14px #FF3E4C; 
+box-shadow: 8px 7px 49px 14px #FF3E4C;
+}
+input::placeholder{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    font-family: 'Lobster Two', cursive;
+}
+.button{
+    width: 100%;
+    height: 100px;
+    padding-top: 40px;
+}
+button{
+    width: 110px;
+    height: 40px;
+    margin-left: 5px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    font-size: 18px;
+    /* box-shadow: 0 0 20px black; */
+    cursor: pointer;
+}
+.text input{
+    background: rgba(247, 0, 214, 0.5);
+    box-shadow: ;
+    
+    
+}
+.email input{
+    background: rgba(247, 0, 214, 0.5);
+}
+.password input{
+    background: rgba(247, 0, 214, 0.5);
+}
+.phone input{
+    background: rgba(247, 0, 214, 0.5);
+}
+button{
+    -webkit-box-shadow: 11px 8px 34px 0px rgba(255,100,13,0.84); 
+box-shadow: 11px 8px 34px 0px rgba(255,100,13,0.84);
+    color: white;
+    background-color: rgba(64, 224, 208, 0.5);
+    font-family: 'Luckiest Guy', cursive;
+    padding-bottom: 5px;
+}
+@media screen and (max-width:1000px) {
+form{
+    display: flex;
+    height: 120%;
+    width: 100%;
+    padding-top: 15px;
+    align-items: center;
+    flex-direction: column;
+    
+}  
+fieldset{
+    margin-top: 20px;
+} 
+
+}
